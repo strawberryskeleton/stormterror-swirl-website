@@ -50,25 +50,48 @@ nav ul li a {
 /* MAIN */
 main {
     width: 70%;
-    height: 13rem;
-    background-color: brown;
-    display: flex;
-    gap: 2rem;
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    /* background-color: brown; */
+}
+
+#title-div {
+    margin-bottom: 4.5rem;
+    color: #0d00ff;
+    font-size: 28px;
+}
+
+#content-div {
+    /* width: 70%; */
+    height: 15rem;
+    /* background-color: brown; */
+    display: flex;
+    gap: 5rem;
     /* padding: 1rem; */
 }
 
 .img-div {
-    width: 40%;
-    background-color: blueviolet;
+    width: 30%;
+    /* height: 30%; */
+    /* background-color: blueviolet; */
     border-radius: 12px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.img-div img {
+    height: 100%;
+    /* width: 100%; */
 }
 
 .desc-div {
     width: 60%;
-    background-color: cadetblue;
-    border-radius: 12px;
+    background-color: rgba(0, 52, 75, 0.712);
+    color: #ccc;
+    border-radius: 15px;
+    padding: 2rem;
+    font-size: 20px;
+    line-height: 1.5;
 }
