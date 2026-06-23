@@ -163,3 +163,10 @@ footer a {
 footer a:hover {
     color: #0d00ff;
 }
+
+footer button {
+    background: transparent;
+    border: 1px solid #a5d2ff;
+    border-radius: 2px;
+    padding: 0.1rem 0.4rem;
+}

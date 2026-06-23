@@ -25,7 +25,7 @@ nav {
     padding: 1rem;
     color: #ccc;
     position: fixed;
-    bottom: 2rem;
+    bottom: 3rem;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -65,7 +65,7 @@ main {
 }
 
 #title-div {
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
     color: #0d00ff;
     font-size: 28px;
 }
@@ -177,6 +177,7 @@ footer {
     background-color: rgba(0, 52, 75, 0.712);
     text-align: center;
     color: #ccc;
+    padding: 0.2rem;
 }
 
 footer a {
@@ -187,4 +188,11 @@ footer a {
 
 footer a:hover {
     color: #0d00ff;
+}
+
+footer button {
+    background: transparent;
+    border: 1px solid #a5d2ff;
+    border-radius: 2px;
+    padding: 0.1rem 0.4rem;
 }
