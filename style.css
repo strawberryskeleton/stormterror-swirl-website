@@ -42,8 +42,16 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: inherit;
+    color: #ccc;
     text-transform: uppercase;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+}
+
+nav ul li a:hover {
+    color: #a5d2ff;
+    background-color: rgba(0, 52, 75, 0.888);
 }
 
 
@@ -94,4 +102,23 @@ main {
     padding: 2rem;
     font-size: 20px;
     line-height: 1.5;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 52, 75, 0.712);
+    text-align: center;
+    color: #ccc;
+}
+
+footer a {
+    text-decoration: none;
+    color: #a5d2ff;
+    transition: color 0.1s ease-in;
+}
+
+footer a:hover {
+    color: #0d00ff;
 }
