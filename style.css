@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +16,11 @@ body {
     /* display: flex; */
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "DM Serif Display", serif;
+    letter-spacing: 3px;
+}
+
 
 /* NAVBAR */
 nav {
@@ -28,6 +35,8 @@ nav {
     bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
+    font-family: "DM Serif Display", serif;
+    letter-spacing: 2px;
 }
 
 nav ul {
@@ -69,6 +78,8 @@ main {
     margin-bottom: 4.5rem;
     color: #0d00ff;
     font-size: 28px;
+    font-family: "DM Serif Display", serif;
+    letter-spacing: 5px;
 }
 
 #content-div {
